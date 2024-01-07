@@ -1,0 +1,222 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Kerem.py</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Ana Sayfa</li>
+                    <li class="menu-list-item">Filmler</li>
+                    <li class="menu-list-item">Diziler</li>
+                    <li class="menu-list-item">Popüler</li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+        <img class="profile-picture" onclick="redirectToPortfolio()" src="img/profile.jpg" alt="">
+        <div class="profile-text-container">
+            <span onclick="redirectToPortfolio()" class="profile-text">Profil</span>
+            <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="toggle">
+            <i class="fas fa-moon toggle-icon"></i>
+            <i class="fas fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container" customName="container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">Altın çağını yaşayan Berlin en büyük planlarından birini hayata geçirerek bir
+                    gecede 44 milyon avro değerinde mücevher çalmak için Paris'te bir çeteyle bir araya gelir.
+                </p>
+                <button class="featured-button">İzle</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Gündemdekiler</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="https://ares.shiftdelete.net/2019/12/La-Casa-de-Papel-4.-Sezon-tarihi-belli-oldu-ShiftDelete.Net1_.jpg"
+                                alt="">
+                            <span class="movie-list-item-title">La Case de Papel</span>
+                            <p class="movie-list-item-desc">Bir suç dehası planını gerçekleştirmek üzere polisi
+                                ustalıkla yönlendirirken sekiz hırsız, rehineler alarak kendilerini İspanya Kraliyet
+                                Darphanesine kilitler.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="https://tr.web.img3.acsta.net/c_310_420/pictures/23/12/15/08/41/3436600.jpg"
+                                alt="">
+                            <span class="movie-list-item-title">Atatürk</span>
+                            <p class="movie-list-item-desc">Atatürk 1881 - 1919 (2. Film), Çanakkale Savaşı’na ve 1919
+                                yılına kadar süren sürece odaklanıyor. Mustafa Kemal, 1915 yılında Gelibolu cephesinde
+                                büyük bir sınav vermiştir. Ancak onun önünde başka savaşlar da vardır. Doğu Cephesi’nde
+                                Ruslara, Suriye cephesinde ise İngilizlere karşı büyük bir mücadele verecek olan Mustafa
+                                Kemal sonunda 1. Dünya Savaşı’nda Savaşı’nı kaybetmeyen tek Osmanlı Subayı olarak tarihe
+                                geçecektir.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="https://upload.wikimedia.org/wikipedia/tr/thumb/9/91/VOL-%C4%B0.png/220px-VOL-%C4%B0.png"
+                                alt="">
+                            <span class="movie-list-item-title">Wall-E</span>
+                            <p class="movie-list-item-desc">VOL•İ, 2008 yapımı 3D animasyon filmi. Pixar Animation
+                                Studios tarafından yapılmıştır. Dağıtımı ise Walt Disney Pictures tarafından
+                                üstlenilmiştir. Film ilk kez 27 Haziran 2008'de ABD'de gösterime girmiştir.
+                                Yönetmenliğini daha önce Kayıp Balık Nemo filmini de yönetmiş olan Andrew Stanton
+                                yapmıştır.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="https://ortakoltuk.com/wp-content/uploads/2019/11/1917-afi%C5%9F.-e1578857477346.jpg"
+                                alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">1917, I. Dünya Savaşı sırasında askerlerin hayatını
+                                etkileyecek önemde bir mesajı iletmekle görevlendirilen iki askerin hikayesini konu
+                                ediyor.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="https://upload.wikimedia.org/wikipedia/tr/6/67/Avengersendgame.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">Yenilmezler, Marvel’in en çok iz bırakan kahramanlarını
+                                bünyesinde topluyor: Demir Adam, Hulk, Thor, Kaptan Amerika, Hawkeye ve Black Widow.
+                                Beklenmedik bir düşman su yüzüne çıkıp dünyanın güvenliğini tehdit etmeye başlıyor</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="https://img01.imgsinemalar.com/images/afis_buyuk/n/napolyon-1700487463.jpg" alt="">
+                            <span class="movie-list-item-title">Napolyon</span>
+                            <p class="movie-list-item-desc">Film, Napolyon Bonapart'ın kökenlerine ve imparatorluğa
+                                doğru hızlı, acımasız tırmanışına kişisel bir bakış sunuyor. Yapım ayrıca, karısı ve
+                                gerçek aşkı Josephine ilişkisini de mercek altına alıyor.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"
+                                src="https://img03.imgsinemalar.com/images/afis_buyuk/y/yesil-yol-1660915301.jpg"
+                                alt="">
+                            <span class="movie-list-item-title">Yeşil Yol</span>
+                            <p class="movie-list-item-desc">Bir hapishanede gardiyanlık yapan Paul Edgecomb'un görevi,
+                                hücrelerinden alınan idam mahkumlarını, elektrikli sandalyenin bulunduğu ölüm odasına
+                                kadar olan bir millik yeşil yoldan götürmektir. Edgecomb yıllar boyunca bu yoldan
+                                sayısız idam mahkumu nakleder. Ama hiçbirisi onu John Coffey kadar etkilemez. Oldukça
+                                iri yarı biri olan Coffey, iki küçük kızı öldürmek suçundan idama mahkum olmuştur.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Rastgele Filmler <button id="refreshButton">Yenile</button></h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list" customName="randomList">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">İzle</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title"
+                    src="https://vectorseek.com/wp-content/uploads/2023/09/Lupin-Series-Logo-Vector-300x91.png" alt="">
+                <p class="featured-desc">Arsen Lüpen'in maceralarından esinlenen kibar hırsız Assane Diop, varlıklı bir
+                    aile yüzünden haksızlığa uğrayan babasının intikamını almak için kolları sıvar.
+                </p>
+                <button class="featured-button">İzle</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+	<script>
+        function redirectToPortfolio() {
+            window.location.href = 'https://kerempy.com.tr/uretken-akademi-portfolyo.html';
+        }
+    </script>
+</body>
+
+</html>
