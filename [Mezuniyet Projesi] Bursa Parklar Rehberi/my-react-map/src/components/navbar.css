@@ -1,0 +1,17 @@
+.heading {
+  margin: 0;
+  padding: 0px;
+  color: white;
+  text-align: center;
+}
+
+.heading > h1 {
+  padding: 10px;
+  background-color: rgba(0, 151, 68, 0.849);
+  color: white;
+  text-align: center;
+}
+
+.ortala {
+  margin-left: 650px;
+}
